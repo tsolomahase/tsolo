@@ -1,0 +1,135 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+ padding-bottom: 0;
+  width: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+  background-image: url("../images/header.jpg");
+}
+/* ここから */
+header {
+  background-color:#2F4F4F;
+  height: 100px;
+  font-size: 1.5rem
+}
+header ul {
+text-decoration: none;
+font-size: normal;
+font-style: normal;
+font-variant: normal;
+font-family: sans-serif;
+}
+
+.left {
+  float: left;
+  padding: 10px;
+  text-align:center;
+  color: white;
+  list-style: none;
+}
+
+.right {
+  float: right;
+  padding: 10px;
+  text-align:center;
+  color: white;
+  list-style: none;
+}
+header ul a {
+text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: normal;
+}
+header li {
+  text-decoration: none;
+  float: left;
+  width: auto;
+  word-spacing: 2rem;
+  padding: 10px;
+  text-align:center;
+  color: white;
+}
+header ul:after {
+}
+
+.main-header img {
+margin-top:-5px;
+
+padding-top:10%;
+padding-bottom: 30%;
+
+   width: 20%;
+   background-size: cover;
+   background-image: url("Images/header.jpg");
+   background-attachment: fixed;
+
+}
+.about h1 {
+  margin-top: -170px;
+text-align: center;
+font-weight: bolder;
+}
+.about {
+  text-align: center;
+  margin:200px;
+  margin-bottom: -30px;
+padding: 10px;
+}
+/* ここから */
+.function {
+  width: 100%;
+  position: relative;
+  background-color: lightgrey;
+  padding: 20px;
+  margin: 0;
+  height: 500px;
+
+}
+
+.function-images {
+display: flex;
+justify-content: center;
+
+}
+
+.function-image {
+  float: right;
+  padding: 15px;
+  margin: 0;
+  padding: 10px;
+  background-color: lightgrey;
+  width: 20%;
+
+}
+/* ここまでがfunction部分の実装 */
+.footer{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  background-color: #2F4F4F;
+  display: table;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#main_img {
+margin-top:-50px;
+}
